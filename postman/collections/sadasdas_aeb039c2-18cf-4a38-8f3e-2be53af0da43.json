@@ -1,18 +1,17 @@
 {
     "info": {
-        "_postman_id": "dc577f7c-a8bd-456e-9c43-6798a0f65a81",
+        "_postman_id": "ea9294d9-c17c-4b9f-8225-90daf5778209",
         "name": "sadasdas",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     },
     "item": [
         {
             "name": "Sample endpoint: Returns details about a particular user",
-            "id": "aa13ae65-5447-4b7d-88b7-57172ac9ae89",
             "request": {
                 "method": "GET",
                 "header": [],
                 "url": {
-                    "raw": "{{baseUrl}}/user?id=17778471",
+                    "raw": "{{baseUrl}}/user?id=17778471dadsdsad",
                     "host": [
                         "{{baseUrl}}"
                     ],
@@ -22,7 +21,7 @@
                     "query": [
                         {
                             "key": "id",
-                            "value": "17778471",
+                            "value": "17778471dadsdsad",
                             "description": "(Required) ID of the user"
                         }
                     ]
@@ -30,7 +29,6 @@
             },
             "response": [
                 {
-                    "id": "0edfe8d0-e579-44d2-97e9-87ebf6ed6534",
                     "name": "Sample response: Details about a user by ID",
                     "originalRequest": {
                         "method": "GET",
@@ -73,11 +71,9 @@
                         }
                     ],
                     "cookie": [],
-                    "responseTime": null,
                     "body": "{\n \"id\": 43699821,\n \"name\": \"laborum sed commodo\",\n \"tag\": \"cillum magna labore\"\n}"
                 },
                 {
-                    "id": "69a195e5-ecd9-4c5b-a95b-84e6e536b3ad",
                     "name": "Unexpected error",
                     "originalRequest": {
                         "method": "GET",
@@ -114,7 +110,6 @@
                         }
                     ],
                     "cookie": [],
-                    "responseTime": null,
                     "body": "{\n \"code\": -7075164,\n \"message\": \"qui laboris cillum cupidatat\"\n}"
                 }
             ]
@@ -137,7 +132,6 @@
     },
     "variable": [
         {
-            "id": "46d98c9f-76ba-4715-a06e-c26c0d6861df",
             "key": "baseUrl",
             "value": "https://petstore.swagger.io/v1",
             "type": "string"
